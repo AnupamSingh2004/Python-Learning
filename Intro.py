@@ -30,6 +30,41 @@ print(str(20.5))
 
 # this ->  // is used for Int division ,It rounds up the result
 
+# Strings
+
+# A string can be contained in single:' ' or double:" " quotes
+# A string can be spaces or digits or special characters
+# Its indexing is similar to C++ and starts with 0 bit Python has -ve indexing in which -1 is dedicated to the last character and 
+# as we proceed to the beginning of the string the -ve value increases
+
+# We can bind a String to another variable
+name = "Anupam Singh"
+short_name = name[0:4];
+
+print(short_name)
+
+# We can also use Striding and wwe can use it along with slicing 
+
+print(name[::2])
+print(name[0:5:2])
+
+len(name) #Used to get the length of the string as in this case there are 12 elements so the length will be given as 12
+
+# We can combine Strings
+
+first_name = "Anupam"
+print(first_name + " Singh")
+
+# We can replicate the number of times the String by multiplying the string with an integer 
+
+print(3 * first_name )
+
+# strings are immutable which means the value cannot be changed but a new string can be created
+
+Name = "Anupam "
+Name = Name + "Singh"
+print(Name)
+
 
 
 
