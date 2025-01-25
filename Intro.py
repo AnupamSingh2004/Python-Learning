@@ -65,7 +65,31 @@ Name = "Anupam "
 Name = Name + "Singh"
 print(Name)
 
+# \ aree meant to be proceed escape sequences
+# escape sequences are srrings which are difficult to input
 
+print(r"Hello \ everyone")
+
+# Methods
+
+Name.upper() #.upper method converts the string to Uppercase
+Name.replace('Anupam','anupam') #Replaces Anupam with anupam
+Name.find('an') #finds the substring an and returns the starting index of the substring
+
+print("My name is {} and my age is {}".format("Anupam",20))
+x = 3
+y = 7
+
+print(f"The sum of x and y is {x + y}")
+
+print('1'+'2')
+print(str(1)+str(1)) 
+
+x = 2/2
+print(type(x))
+
+str1 = "Fun Python"
+print(str1[4:10])
 
 
 
